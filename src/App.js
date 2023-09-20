@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const App = () => {
   const demo = async () => {
-    const response = await fetch("http://localhost:5000/hello-wrold", {
+    const response = await fetch("https://cookie-back.onrender.com/hello-wrold", {
       method: "post",
       credentials: "include",
     });
